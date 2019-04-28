@@ -4,6 +4,7 @@
 1. [Summary](#summary)
 2. [I have used Gulp 4 in this machine before](#i-have-used-Gulp-4-in-this-machine-before)
 3. [I have never used Gulp 4 in this machine before](#i-have-never-used-Gulp-4-in-this-machine-before)
+4. [Disconnect local git repo from remote master](disconnect-local-git-repo-from-remote-master)
 
 ## Summary
 ### The use of this remote repository
@@ -92,3 +93,18 @@ gulp -v
 CLI version: 2.2.0
 ```
 6. Now that you are set globally, all you need to do is follow the steps on [I have used Gulp 4 in this machine before](#i-have-used-Gulp-4-in-this-machine-before).
+
+## Disconnect local git repo from remote master
+### How to disconnect the cloned remote repository to upload your project folder to your own remote repository:
+
+Once you clone this remote repository you'll still have git intiated and poiting to it. To free you project folder and be able to `push` it your own remote repository just type this on the Terminal (make sure you are on your project folder):
+
+```
+git remote remove origin
+```
+```
+git remote add origin yourRemoteUrl
+```
+```
+git push -u origin master
+```
