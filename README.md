@@ -4,7 +4,7 @@
 1. [Summary](#summary)
 2. [I have used Gulp 4 in this machine before](#i-have-used-Gulp-4-in-this-machine-before)
 3. [I have never used Gulp 4 in this machine before](#i-have-never-used-Gulp-4-in-this-machine-before)
-4. [Disconnect local git repo from remote master](disconnect-local-git-repo-from-remote-master)
+4. [Disconnect local git repo from remote master](#disconnect-local-git-repo-from-remote-master)
 
 ## Summary
 ### The use of this remote repository
